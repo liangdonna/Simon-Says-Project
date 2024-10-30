@@ -58,7 +58,7 @@ let roundCount = 0; // track the number of rounds that have been played so far
 /**
  * EVENT LISTENERS
  */
-startButton.addEventListener("click", startButtonHandler());
+startButton.addEventListener("click", startButtonHandler);
 padContainer.addEventListener("click", padHandler);
 
 // TODO: Add an event listener `startButtonHandler()` to startButton.
